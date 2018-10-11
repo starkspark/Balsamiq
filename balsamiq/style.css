@@ -1,0 +1,109 @@
+body{
+}
+
+li{
+    display: inline-block;
+    background: transparent;
+}
+
+.triad{
+    width: inherit;
+    overflow: hidden;
+}
+
+.container-fluid{
+    overflow: hidden;
+}
+
+#titleOverlay{
+    background: transparent;
+    margin-top: -30%;
+    height: 80vh;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+
+#titleOverlay h1{
+    font-size: 390%;
+    margin-bottom: 1%;
+    letter-spacing: 2px;
+    
+}
+
+#titleOverlay h4{
+    letter-spacing: 2px;
+}
+
+#quickExcerpt{
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+.quote{
+    width: 60%;
+    letter-spacing: 2px;
+    line-height: 160%;
+    color: #404040;
+}
+
+.speaker{
+    color: #505050;
+    display: inline;
+    margin-left: 25%;
+}
+
+.profile{
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: -10%;
+}
+
+.fullPhoto{
+    object-fit: contain;
+    margin-bottom: .8%;
+}
+
+.halfPhoto{
+    display: inline-block;
+    margin-bottom: .3%;
+}
+
+.halfPhoto1{
+    float: right;
+    height: 60vh;
+}
+
+.halfPhoto2{
+    float: left;
+}
+
+.halfPhoto3{
+    float: left;
+}
+
+.halfPhoto4{
+    float: right;
+    height: 64vh;
+}
+
+.viewMore{
+    margin-top: 5%;
+    float: right;
+    margin-bottom: 5%;
+    margin-right: 8%;
+}
+
+button{
+    border-radius: 5%;
+    background-color: aliceblue;
+}
+
+footer{
+    height: 15vh;
+    background: #909090;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
